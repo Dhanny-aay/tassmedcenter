@@ -12,6 +12,7 @@ import LowerFace from "./pages/lowerface";
 import Rhinoplasty from "./pages/rhinoplasty";
 import TummyTuck from "./pages/tummyTuck";
 import { useEffect } from "react";
+import Contact from "./pages/contact";
 
 function App() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Landing/>}/>
       <Route path='/about' element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/gallery/lowerface' element={<LowerFace/>}/>

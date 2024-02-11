@@ -14,8 +14,8 @@ const Navbar = () => {
                 <Link to='/'><p className=' font-Jost font-normal text-base'>Home</p></Link>
                 <Link to='/about'><p className=' font-Jost font-normal text-base'>About Us</p></Link>
                 <Link to='/gallery'><p className=' font-Jost font-normal text-base'>Our Gallery</p></Link>
-                <Link to=''><p className=' font-Jost font-normal text-base'>Our Blog</p></Link>
-                <Link to=''><p className=' font-Jost font-normal text-base'>Contact Us</p></Link>
+                <Link to='/blog'><p className=' font-Jost font-normal text-base'>Our Blog</p></Link>
+                <Link to='/contact'><p className=' font-Jost font-normal text-base'>Contact Us</p></Link>
             </span>
             
             <button className=' hidden lg:block bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] px-6 py-3 rounded-[30px] font-Jost font-medium text-white text-base'>Book an appointment</button>
