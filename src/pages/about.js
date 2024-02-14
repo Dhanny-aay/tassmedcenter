@@ -10,7 +10,7 @@ const About = () => {
     return ( 
         <>
         <Navbar/>
-        <div className=" mt-12 md:mt-20 px-4 md:px-20 text-[#121212]">
+        <div className=" mt-12 md:mt-16 px-4 md:px-20 text-[#121212]">
             <div className="">
                 <p className=" font-Jost font-normal text-base md:text-xl">About TASS Medical Center</p>
                 <p className=" mt-3 text-2xl md:text-5xl font-Jost font-medium capitalize md:leading-[62.4px]">Advancing the field of aesthetic medicine through innovative techniques.</p>

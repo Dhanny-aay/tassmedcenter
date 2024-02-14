@@ -5,7 +5,7 @@ const HairTransplant = () => {
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20 font-Jost">
+        <div className="mt-12 md:mt-16 px-4 md:px-20 font-Jost">
             <p className=" gradient-text font-medium text-base text-center">Updated December 21, 2023</p>
             <p className=" text-[#121212] text-2xl md:text-4xl md:px-[12%] font-medium text-center mt-5">From Follicle to Fullness: Reclaiming Your Crown with Hair Transplants</p>
             <p className=" text-center md:px-[8%] mt-3 text-base md:text-lg text-[#121212CC]">Hair Transplant can be defined as hair follicle transfer. Hair Transplant is the transfer of hair follicles collected from denser Hairy areas (nape and sides) to the sparse areas. Hair Transplant is a highly preferred and permanent method as it provides natural and healthy results. Hair Transplant also resolves various psychological problems and social introversion caused by hair loss.</p>

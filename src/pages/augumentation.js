@@ -13,7 +13,7 @@ const Augumentation = () => {
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20 font-Jost">
+        <div className="mt-12 md:mt-16 px-4 md:px-20 font-Jost">
             <p className=" font-Jost font-normal text-lg md:text-xl text-center">Our Gallery</p>
             <p className=" font-Jost font-medium text-2xl md:text-5xl mt-3 text-center capitalize">Breast Augmentation</p>
             <div className=" mt-6 md:mt-8 w-full border-y border-[#DADADA] py-4 md:py-6 flex items-center justify-between font-Jost">

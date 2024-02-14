@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import arrLeft from './assets/arrleft.svg';
@@ -8,18 +9,23 @@ import blog3 from './assets/blog3.png';
 const Blog = () => {
 
     const blogData = [
-        {date:'25 Apr. 2022', title:'When Should I Get A Hair Transplant & What Is The Best Age?', desc:'Hair loss can occur at a very young age, but it can also occur at older ages. In such cases, the first question that comes to mind is “at what age should I have hair transplantation?”.', img:blog1},
-        {date:'25 Apr. 2022', title:'Non-Surgical Aesthetics with Nose Filling', desc:'You are not satisfied with the appearance of your nose and you do not want to have surgery, or you do not have enough time or budget for this surgery…', img:blog2},
-        {date:'25 Apr. 2022', title:'Breast Aesthetics', desc:'Breast aesthetics appears as a procedure that has many types and can be performed for many reasons. Whether it is performed for psychological or medical reasons, the effect of breast aesthetics is great.', img:blog3},
-        {date:'25 Apr. 2022', title:'When Should I Get A Hair Transplant & What Is The Best Age?', desc:'Hair loss can occur at a very young age, but it can also occur at older ages. In such cases, the first question that comes to mind is “at what age should I have hair transplantation?”.', img:blog1},
-        {date:'25 Apr. 2022', title:'Non-Surgical Aesthetics with Nose Filling', desc:'You are not satisfied with the appearance of your nose and you do not want to have surgery, or you do not have enough time or budget for this surgery…', img:blog2},
-        {date:'25 Apr. 2022', title:'Breast Aesthetics', desc:'Breast aesthetics appears as a procedure that has many types and can be performed for many reasons. Whether it is performed for psychological or medical reasons, the effect of breast aesthetics is great.', img:blog3},
+        {date:'25 Apr. 2022', title:'When Should I Get A Hair Transplant & What Is The Best Age?', desc:'Hair loss can occur at a very young age, but it can also occur at older ages. In such cases, the first question that comes to mind is “at what age should I have hair transplantation?”.', img:blog1, link:'/blog/When Should_I_Get_A_Hair_Transplant_&_What_Is_The_Best_Age?'},
+
+        {date:'25 Apr. 2022', title:'Non-Surgical Aesthetics with Nose Filling', desc:'You are not satisfied with the appearance of your nose and you do not want to have surgery, or you do not have enough time or budget for this surgery…', img:blog2, link:''},
+
+        {date:'25 Apr. 2022', title:'Breast Aesthetics', desc:'Breast aesthetics appears as a procedure that has many types and can be performed for many reasons. Whether it is performed for psychological or medical reasons, the effect of breast aesthetics is great.', img:blog3, link:''},
+
+        {date:'25 Apr. 2022', title:'When Should I Get A Hair Transplant & What Is The Best Age?', desc:'Hair loss can occur at a very young age, but it can also occur at older ages. In such cases, the first question that comes to mind is “at what age should I have hair transplantation?”.', img:blog1, link:'/blog/When Should_I_Get_A_Hair_Transplant_&_What_Is_The_Best_Age?'},
+
+        {date:'25 Apr. 2022', title:'Non-Surgical Aesthetics with Nose Filling', desc:'You are not satisfied with the appearance of your nose and you do not want to have surgery, or you do not have enough time or budget for this surgery…', img:blog2 ,link:""},
+
+        {date:'25 Apr. 2022', title:'Breast Aesthetics', desc:'Breast aesthetics appears as a procedure that has many types and can be performed for many reasons. Whether it is performed for psychological or medical reasons, the effect of breast aesthetics is great.', img:blog3, link:''},
     ]
 
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20">
+        <div className="mt-12 md:mt-16 px-4 md:px-20">
             <p className=" font-Jost font-normal text-lg md:text-xl text-center">Our Blog</p>
             <p className=" font-Jost font-medium text-2xl md:text-5xl mt-3 text-center">Resources and Insights</p>
             <p className=" text-center font-Jost font-normal text-lg md:text-xl mt-2">Keeping you informed with top medical news and innovations.</p>
@@ -35,10 +41,10 @@ const Blog = () => {
                             <p className=' font-Jost text-[#5F6D7E] text-sm font-medium'>{item.date}</p>
                             <p className=' mt-5 text-xl md:text-[22px] md:leading-[30px] font-Jost font-semibold'>{item.title}</p>
                             <p className=' mt-4 text-[#121212CC] text-base font-normal font-Jost pb-8'>{item.desc}</p>
-                            <button className=' flex items-center space-x-2 absolute bottom-6'>
-                                <p className=' gradient-text text-[15px] font-Jost font-semibold'>Learn more</p> 
+                            <Link to={item.link}><button className=' flex items-center space-x-2 absolute bottom-6'>
+                                <p className=' gradient-text text-[15px] font-Jost font-semibold'>Learn more</p>
                                 <img src={ arrLeft } className='' alt="" />
-                            </button>
+                            </button></Link> 
                         </div>
                     </div>
                 ))}   

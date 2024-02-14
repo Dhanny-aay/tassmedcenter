@@ -5,7 +5,7 @@ const Lipo = () => {
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20 font-Jost">
+        <div className="mt-12 md:mt-16 px-4 md:px-20 font-Jost">
             <p className=" gradient-text font-medium text-base text-center">Updated December 21, 2023</p>
             <p className=" text-[#121212] text-2xl md:text-4xl md:px-[12%] font-medium text-center mt-5">The Power of Precision: Liposuction - Targeted Fat Removal for Lasting Results</p>
             <p className=" text-center md:px-[8%] mt-3 text-base md:text-lg text-[#121212CC]">A balanced fat distribution and proportional contour are among the fundamental aspects of an attractive human body.</p>

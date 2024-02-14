@@ -5,7 +5,7 @@ const Buttlift = () => {
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20 font-Jost">
+        <div className="mt-12 md:mt-16 px-4 md:px-20 font-Jost">
             <p className=" gradient-text font-medium text-base text-center">Updated December 21, 2023</p>
             <p className=" text-[#121212] text-2xl md:text-4xl md:px-[12%] font-medium text-center mt-5">Sculpting the Perfect Silhouette: A Deep Dive into the Brazilian Butt Lift</p>
             <p className=" text-center md:px-[8%] mt-3 text-base md:text-lg text-[#121212CC]">Butt aesthetic is a form of butt lift and augmentation operation that provides a younger, natural and reformed look for the hips. Our patients who do not like the look of their hips can have butt aesthetic regardless of the size, shape or sagging skin.</p>

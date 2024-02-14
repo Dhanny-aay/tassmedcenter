@@ -13,6 +13,7 @@ import Rhinoplasty from "./pages/rhinoplasty";
 import TummyTuck from "./pages/tummyTuck";
 import { useEffect } from "react";
 import Contact from "./pages/contact";
+import DetailedBlogOne from "./pages/detailedblogOne";
 
 function App() {
   const location = useLocation();
@@ -38,6 +39,7 @@ function App() {
       <Route path='/procedure/tummy_tuck' element={<TummyTuck/>}/>
       <Route path='/procedure/liposuction' element={<Lipo/>}/>
       <Route path='/procedure/hair_transplant' element={<HairTransplant/>}/>
+      <Route path='/blog/When Should_I_Get_A_Hair_Transplant_&_What_Is_The_Best_Age?' element={<DetailedBlogOne/>}/>
 
       {/* <HairTransplant/> */}
     </Routes>

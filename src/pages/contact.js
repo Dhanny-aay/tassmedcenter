@@ -5,7 +5,7 @@ const Contact = () => {
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20">
+        <div className="mt-12 md:mt-16 px-4 md:px-20">
             <p className=" font-Jost font-normal text-lg md:text-xl text-center">Contact Us</p>
             <p className=" font-Jost font-medium text-2xl md:text-5xl mt-3 text-center tracking-tight">Have a question, or want to chat?</p>
             <p className=" text-center font-Jost font-normal text-lg md:text-xl mt-2">Your transformation starts with a conversation.</p>

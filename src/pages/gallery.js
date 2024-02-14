@@ -7,7 +7,7 @@ const Gallery = () => {
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20">
+        <div className="mt-12 md:mt-16 px-4 md:px-20">
             <p className=" font-Jost font-normal text-lg md:text-xl text-center">Our Gallery</p>
             <p className=" font-Jost font-medium text-2xl md:text-5xl mt-3 text-center">Patient Galleries</p>
             <p className=" text-center font-Jost font-normal text-lg md:text-xl mt-2">Glimpse the transformative journeys of our patients.</p>

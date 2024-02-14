@@ -5,7 +5,7 @@ const Rhinoplasty = () => {
     return ( 
         <>
         <Navbar/>
-        <div className="mt-12 md:mt-20 px-4 md:px-20 font-Jost">
+        <div className="mt-12 md:mt-16 px-4 md:px-20 font-Jost">
             <p className=" gradient-text font-medium text-base text-center">Updated December 21, 2023</p>
             <p className=" text-[#121212] text-2xl md:text-4xl md:px-[12%] font-medium text-center mt-5">Transforming Your Profile: A Deep Dive into Rhinoplasty</p>
             <p className=" text-center md:px-[8%] mt-3 text-base md:text-lg text-[#121212CC]">Rhinoplasty, also known as nose job, is a surgical procedure to reshape and improve the function of the nose. Nose is the most prominent organ of the face and provides the characteristic for the face</p>
