@@ -14,6 +14,9 @@ import TummyTuck from "./pages/tummyTuck";
 import { useEffect } from "react";
 import Contact from "./pages/contact";
 import DetailedBlogOne from "./pages/detailedblogOne";
+import DetailedBlogTwo from "./pages/detailedblogTwo";
+import DetailedBlogThree from "./pages/detailedblogThree";
+import DetailedBlogFour from "./pages/detailedblogFour";
 
 function App() {
   const location = useLocation();
@@ -40,6 +43,10 @@ function App() {
       <Route path='/procedure/liposuction' element={<Lipo/>}/>
       <Route path='/procedure/hair_transplant' element={<HairTransplant/>}/>
       <Route path='/blog/When Should_I_Get_A_Hair_Transplant_&_What_Is_The_Best_Age?' element={<DetailedBlogOne/>}/>
+      <Route path='/blog/5_Things_to_know_about_Arm_Lifts' element={<DetailedBlogTwo/>}/>
+      <Route path='/blog/Non-Surgical_Aesthetics_with_Nose_Filling' element={<DetailedBlogThree/>}/>
+      <Route path='/blog/What_is_Medical_Aesthetics?' element={<DetailedBlogFour/>}/>
+
 
       {/* <HairTransplant/> */}
     </Routes>
