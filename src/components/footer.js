@@ -11,13 +11,13 @@ const Footer = () => {
             <div className=" w-full pt-8 md:pt-16 px-4 md:px-20 ">
                 <div className='  border-b border-[#D7C77B] w-full flex flex-col md:flex-row justify-center md:justify-between items-start pb-12'>
                     <div className=" w-full md:w-[30%] text-white">
-                        <button className=" border-[3px] rounded-[10px] border-[#b798438e] w-full flex items-center justify-between px-6 py-4">
+                        <Link to='/contact'><button className=" border-[3px] rounded-[10px] border-[#b798438e] w-full flex items-center justify-between px-6 py-4">
                             <span className=" flex items-center space-x-3">
                                 <img src={ appoint } className='' alt="" />
                                 <p className=' font-Jost text-white font-medium text-lg'>Book an appointment</p>
                             </span>
                             <img src={ kkk } className='' alt="" />
-                        </button>
+                        </button></Link>
 
                         <div className=' mt-8 text-white'>
                             <p className=' font-Jost text-xl font-semibold'>Contact us</p>
@@ -38,8 +38,8 @@ const Footer = () => {
                         <div className=' text-base mt-8 font-Jost'>
                             <p className=' text-xl font-semibold mb-5 text-[#ffffff]'>About TASS medical center</p>
                             <span className='  mt-3 text-base font-normal'>
-                                <p className=' mt-2'>About this Site</p>
-                                <p className=' mt-2'>Health Information Policy</p>
+                                <Link to='/about'><p className=' mt-2'>About this Site</p></Link>
+                                <Link to='/health-information-policy'><p className=' mt-2'>Health Information Policy</p></Link>
                                 <p className=' mt-2'>Price Transparency</p>
                             </span>
                         </div>
@@ -50,27 +50,26 @@ const Footer = () => {
                         <div className=' text-base font-Jost'>
                             <p className=' text-xl font-semibold mb-5 text-[#ffffff]'>Medical Professionals</p>
                             <span className='  mt-3 text-base font-normal'>
-                                <p className=' mt-2'>Ask TASS Expert</p>
-                                <p className=' mt-2'>Clinical Trials</p>
-                                <p className=' mt-2'>Refer a Patient</p>
+                                <Link to='/contact'><p className=' mt-2'>Ask TASS Expert</p></Link>
+                                <Link><p className=' mt-2'>Refer a Patient</p></Link>
                             </span>
                         </div>
 
                         <div className=' text-base mt-8 font-Jost'>
                             <p className=' text-xl font-semibold mb-5 text-[#ffffff]'>Medical Units</p>
                             <span className='  mt-3 text-base font-normal'>
-                                <p className=' mt-2'>Cosmetic Dental</p>
-                                <p className=' mt-2'>Ear, Nose, Throat</p>
-                                <p className=' mt-2'>Laboratory</p>
-                                <p className=' mt-2'>Orthopaedics</p>
-                                <p className=' mt-2'>Aesthetic Surgery</p>
-                                <p className=' mt-2'>Radiology</p>
-                                <p className=' mt-2'>Gynecology</p>
-                                <p className=' mt-2'>Physical Therapy</p>
-                                <p className=' mt-2'>Health Care Services</p>
-                                <p className=' mt-2'>Dermatology</p>
-                                <p className=' mt-2'>Internal Medicine</p>
-                                <p className=' mt-2'>Check-Up</p>
+                                <Link to='/soon'><p className=' mt-2'>Cosmetic Dental</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Ear, Nose, Throat</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Laboratory</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Orthopaedics</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Aesthetic Surgery</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Radiology</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Gynecology</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Physical Therapy</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Health Care Services</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Dermatology</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Internal Medicine</p></Link>
+                                <Link to='/soon'><p className=' mt-2'>Check-Up</p></Link>
                             </span>
                         </div>
                     </div>
@@ -78,15 +77,6 @@ const Footer = () => {
                     <div className=" mt-8 md:mt-0 w-full md:w-[30%] text-white">
 
                         <div className=' text-base font-Jost'>
-                            <p className=' text-xl font-semibold mb-5 text-[#ffffff]'>International Patients</p>
-                            <span className='  mt-3 text-base font-normal'>
-                                <p className=' mt-2'>Appointments</p>
-                                <p className=' mt-2'>Financial Services</p>
-                                <p className=' mt-2'>Refer a Patient</p>
-                            </span>
-                        </div>
-
-                        <div className=' text-base mt-8 font-Jost'>
                             <p className=' text-xl font-semibold mb-5 text-[#ffffff]'>Our Services</p>
                             <span className='  mt-3 text-base font-normal'>
                                 <Link to='/procedure/rhinoplasty'><p className=' mt-2'>Rhinoplasty</p></Link>

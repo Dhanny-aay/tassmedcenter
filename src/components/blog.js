@@ -9,9 +9,9 @@ const Blog = () => {
     const blogData = [
         {date:'25 Apr. 2022', title:'When Should I Get A Hair Transplant & What Is The Best Age?', desc:'Hair loss can occur at a very young age, but it can also occur at older ages. In such cases, the first question that comes to mind is “at what age should I have hair transplantation?”.', img:blog1, link:'/blog/When Should_I_Get_A_Hair_Transplant_&_What_Is_The_Best_Age?'},
         
-        {date:'25 Apr. 2022', title:'Non-Surgical Aesthetics with Nose Filling', desc:'You are not satisfied with the appearance of your nose and you do not want to have surgery, or you do not have enough time or budget for this surgery…', img:blog2, link:''},
+        {date:'25 Apr. 2022', title:'Non-Surgical Aesthetics with Nose Filling', desc:'You are not satisfied with the appearance of your nose and you do not want to have surgery, or you do not have enough time or budget for this surgery…', img:blog2, link:'/blog/Non-Surgical_Aesthetics_with_Nose_Filling'},
 
-        {date:'25 Apr. 2022', title:'Breast Aesthetics', desc:'Breast aesthetics appears as a procedure that has many types and can be performed for many reasons. Whether it is performed for psychological or medical reasons, the effect of breast aesthetics is great.', img:blog3, link:''},
+        {date:'25 Apr. 2022', title:'What is Medical Aesthetics?', desc:'Ever wished to enhance your appearance without surgery? Medical aesthetics offers non-invasive and minimally invasive solutions for various concerns, from wrinkles to unwanted fat......', img:blog3, link:'/blog/What_is_Medical_Aesthetics?'},
     ]
     return ( 
         <>

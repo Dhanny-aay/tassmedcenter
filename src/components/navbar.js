@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link to='/contact'><p className=' font-Jost font-normal text-base'>Contact Us</p></Link>
             </span>
             
-            <button className=' hidden lg:block bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] px-6 py-3 rounded-[30px] font-Jost font-medium text-white text-base'>Book an appointment</button>
+            <Link to='/contact'><button className=' hidden lg:block bg-gradient-to-r from-[#B79843] to-[#82620F] via-[#a18330] px-6 py-3 rounded-[30px] font-Jost font-medium text-white text-base'>Book an appointment</button></Link>
 
             <img src={ menu } className=' block lg:hidden' alt="" />
         </div>

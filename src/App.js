@@ -17,6 +17,8 @@ import DetailedBlogOne from "./pages/detailedblogOne";
 import DetailedBlogTwo from "./pages/detailedblogTwo";
 import DetailedBlogThree from "./pages/detailedblogThree";
 import DetailedBlogFour from "./pages/detailedblogFour";
+import Soon from "./pages/soon";
+import Policy from "./pages/policy";
 
 function App() {
   const location = useLocation();
@@ -32,6 +34,8 @@ function App() {
       <Route path='/' element={<Landing/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/soon" element={<Soon/>}/>
+      <Route path="/health-information-policy" element={<Policy/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/gallery/lowerface' element={<LowerFace/>}/>
